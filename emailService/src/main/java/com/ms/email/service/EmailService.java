@@ -1,11 +1,11 @@
 package com.ms.email.service;
 
 import com.ms.email.domain.Email;
-import com.ms.email.domain.dto.EmailDto;
 import com.ms.email.repositories.EmailRepository;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j2;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
@@ -14,6 +14,7 @@ import java.time.LocalDateTime;
 
 @Service
 @RequiredArgsConstructor
+@Log4j2
 public class EmailService {
 
     private final JavaMailSender mailSender;
@@ -34,7 +35,7 @@ public class EmailService {
             mailSender.send(message);
             emailRepository.save(email);
         } catch (MessagingException e) {
-            throw new RuntimeException(e);
+            log.info("Erro ao enviar email: " + e.getMessage());
         }
 
 

@@ -20,7 +20,6 @@ public class EmailConsumer {
         Email email = new Email();
         BeanUtils.copyProperties(emailDto, email);
         emailService.sendEmail(email);
-
     }
 
 }
