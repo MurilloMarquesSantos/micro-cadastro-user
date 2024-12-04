@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/ms_email
+    url: jdbc:mysql://127.0.0.1:3306/micro_email
     username: UserJava
     password: JavaTestMicro
   jpa:
@@ -12,6 +12,23 @@ spring:
     show-sql: true
   rabbitmq:
     addresses: amqps://fwjxnbbf:t-WbMINGb0ZT_RV480E6NUotO7CAoocl@jackal.rmq.cloudamqp.com/fwjxnbbf
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: murillomarquesrespaw@gmail.com
+    password: gwgwnuwqmzfpwjkc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enabled: true
+            required: true
+          ssl:
+            trust: "smtp.gmail.com"
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
 broker:
   queue:
     email:
