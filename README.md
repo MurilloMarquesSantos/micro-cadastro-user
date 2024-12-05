@@ -33,7 +33,7 @@ This system consists of **three microservices**:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/micro-cadastro-user.git
+git clone https://github.com/MurilloMarquesSantos/micro-cadastro-user.git
 cd micro-cadastro-user
 ``` 
 ### 2. Set Up RabbitMQ
