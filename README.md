@@ -33,8 +33,8 @@ This system consists of **three microservices**:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/microservices-rabbitmq-example.git
-cd microservices-rabbitmq-example
+git clone https://github.com/your-username/micro-cadastro-user.git
+cd micro-cadastro-user
 ``` 
 ### 2. Set Up RabbitMQ
     If using CloudAMQP, create an instance and retrieve the connection URL.
