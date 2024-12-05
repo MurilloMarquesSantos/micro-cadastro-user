@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8c642a-2256-4b92-9523-24a1790b5bb4" name="Changes" comment="Email service made">
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/domain/dto/EmailDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/domain/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/producer/UserProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="bc8c642a-2256-4b92-9523-24a1790b5bb4" name="Changes" comment="Project Done! Everything working as it should">
+      <change afterPath="$PROJECT_DIR$/logsService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/LogsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/config/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/consumer/LogConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/dto/EmailDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailService/src/main/java/com/ms/email/consumer/EmailConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/src/main/java/com/ms/email/consumer/EmailConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailService/src/main/java/com/ms/email/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/src/main/java/com/ms/email/service/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emailService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailService/target/classes/com/ms/email/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/target/classes/com/ms/email/service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/producer/UserProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/producer/UserProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.EmailApplication.executor": "Run",
+    "Application.LogsApplication.executor": "Run",
     "Application.UserApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -73,13 +75,26 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EmailApplication">
+  <component name="RunManager" selected="Application.UserApplication">
     <configuration name="EmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ms.email.EmailApplication" />
       <module name="emailService" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ms.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ms.logs.LogsApplication" />
+      <module name="logsService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ms.logs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,8 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmailApplication" />
         <item itemvalue="Application.UserApplication" />
+        <item itemvalue="Application.LogsApplication" />
+        <item itemvalue="Application.EmailApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -132,12 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733321340433</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Project Done! Everything working as it should">
+      <option name="closed" value="true" />
+      <created>1733323576037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733323576038</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project first commit" />
     <MESSAGE value="Email service made" />
-    <option name="LAST_COMMIT_MESSAGE" value="Email service made" />
+    <MESSAGE value="Project Done! Everything working as it should" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Done! Everything working as it should" />
   </component>
 </project>

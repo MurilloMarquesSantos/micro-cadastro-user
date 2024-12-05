@@ -17,6 +17,7 @@
     <modules>
         <module>emailService</module>
         <module>userService</module>
+        <module>logsService</module>
     </modules>
 
     <properties>
