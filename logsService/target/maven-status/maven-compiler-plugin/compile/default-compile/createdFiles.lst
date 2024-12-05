@@ -1,0 +1,4 @@
+com\ms\logs\consumer\LogConsumer.class
+com\ms\logs\dto\EmailDto.class
+com\ms\logs\LogsApplication.class
+com\ms\logs\config\RabbitMQConfig.class

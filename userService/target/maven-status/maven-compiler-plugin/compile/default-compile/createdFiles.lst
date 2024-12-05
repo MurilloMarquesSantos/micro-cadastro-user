@@ -1,0 +1,9 @@
+com\ms\user\repositories\UserRepository.class
+com\ms\user\service\UserService.class
+com\ms\user\controller\UserController.class
+com\ms\user\domain\dto\UserDto.class
+com\ms\user\producer\UserProducer.class
+com\ms\user\UserApplication.class
+com\ms\user\domain\dto\EmailDto.class
+com\ms\user\config\RabbitMQConfig.class
+com\ms\user\domain\User.class

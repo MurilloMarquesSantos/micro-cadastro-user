@@ -4,22 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8c642a-2256-4b92-9523-24a1790b5bb4" name="Changes" comment="Project Done! Everything working as it should">
-      <change afterPath="$PROJECT_DIR$/logsService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/LogsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/config/RabbitMQConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/consumer/LogConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logsService/src/main/java/com/ms/logs/dto/EmailDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logsService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bc8c642a-2256-4b92-9523-24a1790b5bb4" name="Changes" comment="Created a new microservice for logs, everything is working!">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emailService/target/classes/com/ms/email/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/target/classes/com/ms/email/service/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/config/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/producer/UserProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/ms/user/producer/UserProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logsService/target/classes/com/ms/logs/consumer/LogConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/logsService/target/classes/com/ms/logs/consumer/LogConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,20 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EmailApplication.executor": "Run",
-    "Application.LogsApplication.executor": "Run",
-    "Application.UserApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/muril/Downloads/emailService/emailService/pom.xml",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EmailApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LogsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/muril/Downloads/emailService/emailService/pom.xml&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.UserApplication">
     <configuration name="EmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ms.email.EmailApplication" />
@@ -156,13 +147,30 @@
       <option name="project" value="LOCAL" />
       <updated>1733323576038</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a new microservice for logs, everything is working!">
+      <option name="closed" value="true" />
+      <created>1733415953648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733415953649</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created a new microservice for logs, everything is working!">
+      <option name="closed" value="true" />
+      <created>1733415964688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733415964688</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project first commit" />
     <MESSAGE value="Email service made" />
     <MESSAGE value="Project Done! Everything working as it should" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Done! Everything working as it should" />
+    <MESSAGE value="Created a new microservice for logs, everything is working!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a new microservice for logs, everything is working!" />
   </component>
 </project>

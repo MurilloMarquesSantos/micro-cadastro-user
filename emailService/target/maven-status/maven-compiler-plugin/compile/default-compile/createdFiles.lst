@@ -1,0 +1,7 @@
+com\ms\email\domain\dto\EmailDto.class
+com\ms\email\repositories\EmailRepository.class
+com\ms\email\consumer\EmailConsumer.class
+com\ms\email\EmailApplication.class
+com\ms\email\service\EmailService.class
+com\ms\email\config\RabbitMQConfig.class
+com\ms\email\domain\Email.class
