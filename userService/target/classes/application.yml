@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/micro_user
+    username: UserJava
+    password: JavaTestMicro
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  rabbitmq:
+    addresses: amqps://fwjxnbbf:t-WbMINGb0ZT_RV480E6NUotO7CAoocl@jackal.rmq.cloudamqp.com/fwjxnbbf
+broker:
+  exchange:
+    name: fanout.exchange
+  queue:
+    email:
+      name: default.email
+    log:
+      name: log.queue
