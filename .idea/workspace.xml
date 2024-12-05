@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc8c642a-2256-4b92-9523-24a1790b5bb4" name="Changes" comment="Created a new microservice for logs, everything is working!">
+    <list default="true" id="bc8c642a-2256-4b92-9523-24a1790b5bb4" name="Changes" comment="Read me made!">
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/emailService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/emailService-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emailService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/logsService-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/logsService-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logsService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/emailService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logsService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/logsService/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logsService/target/classes/com/ms/logs/consumer/LogConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/logsService/target/classes/com/ms/logs/consumer/LogConsumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/userService-1.0-SNAPSHOT.jar.original" afterDir="false" />
@@ -163,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733415964688</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Read me made!">
+      <option name="closed" value="true" />
+      <created>1733421640121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733421640121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +198,7 @@
     <MESSAGE value="Email service made" />
     <MESSAGE value="Project Done! Everything working as it should" />
     <MESSAGE value="Created a new microservice for logs, everything is working!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a new microservice for logs, everything is working!" />
+    <MESSAGE value="Read me made!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Read me made!" />
   </component>
 </project>
